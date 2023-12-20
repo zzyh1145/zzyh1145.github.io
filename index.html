@@ -116,21 +116,21 @@
 
 	<!--实时时间 显示浏览器设置时间-->
 	<h5 align="center">
-<script> 
-function show(){ 
-var date = new Date();  
-var now = ""; 
-now = date.getFullYear()+"年";  
-now = now + (date.getMonth()+1)+"月"; 
-now = now + date.getDate()+"日"; 
-now = now + date.getHours()+"时"; 
-now = now + date.getMinutes()+"分"; 
-now = now + date.getSeconds()+"秒"; 
-document.getElementById("nowDiv").innerHTML = now; 
-setTimeout("show()",1000); 
-} 
-</script> 
-<body onload="show()"> 
-<div id="nowDiv"></div>
+		<script> 
+			functiottn show(){ 
+				var date = new Date(); 
+				var now = ""; 
+				now = date.getFullYear()+"年";  
+				now = now + (date.getMonth()+1)+"月"; 
+				now = now + date.getDate()+"日"; 
+				now = now + date.getHours()+"时"; 
+				now = now + date.getMinutes()+"分"; 
+				now = now + date.getSeconds()+"秒"; 
+				document.getElementById("nowDiv").innerHTML = now; 
+				setTimeout("show()",1000); 
+			}
+			show();
+		</script> 
+		<div id="nowDiv"></div>
 	</h5>
 </body> 
