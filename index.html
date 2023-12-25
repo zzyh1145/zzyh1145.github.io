@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
 	<title>zzyh1145 Website</title>
-	<link rel="shortcut icon" href=" favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 	<!--侧边栏-->
 	<style>
 		body {
@@ -116,6 +116,7 @@
 
 	<!--实时时间 显示浏览器设置时间-->
 	<h5 align="center">
+		<div id="nowTimeDiv"></div>
 		<script> 
 			functiottn show(){ 
 				var date = new Date(); 
@@ -126,11 +127,10 @@
 				now = now + date.getHours()+"时"; 
 				now = now + date.getMinutes()+"分"; 
 				now = now + date.getSeconds()+"秒"; 
-				document.getElementById("nowDiv").innerHTML = now; 
+				document.getElementById("nowTimeDiv").innerHTML = now; 
 				setTimeout("show()",1000); 
 			}
 			show();
-		</script> 
-		<div id="nowDiv"></div>
+		</script>
 	</h5>
 </body> 
