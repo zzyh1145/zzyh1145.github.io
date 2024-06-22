@@ -1,14 +1,4 @@
-# KZHomePage
-
-二次元卡片个人网站主页
-
-> QQ交流群：<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=-tso4BmPVXPSgqNjPhRCIg4GYZ8Llu_e&jump_from=webapi">962303102</a>
-
-## 使用文档
-
-<https://blog.170601.xyz/archives/25.html>
-
-## 使用方式
+# Citruy_404 HomePage
 
 ### 音乐配置
 使用前请填写head内的相关配置信息
@@ -50,3 +40,5 @@
 https://github.com/metowolf/Meting
 
 https://aplayer.js.org/
+
+https://github.com/kaygb/KZHomePage/
