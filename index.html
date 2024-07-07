@@ -1,63 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>老设备导航</title>
-    <link rel="shortcut icon" href="/favicon.ico">
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcdn.net/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="./favicon.ico">
 </head>
-<body bgcolor="#ECF0F1">
+<body>
     <noscript>
         <!--向不支持JS脚本的浏览器报错-->
         <h1>JavaScript Required! You must enable JavaScript for the Web to work properly</h1>
     </noscript>
     
-    <font size="4">欢迎来到zzyh的老设备导航站</p></font>
-    
-    
+    <h3>欢迎来到zzyh的老设备导航站</h3>
+
+    <!--时钟-->
     <div id="nowDiv"></div>
     
-    <p>
-        <a href="radio.index.html">
-            <button>听广播</button>
-        </a>
-    </p>
-    
     <!--搜索栏-->
-    <input id="searchBar" type=text style="width:100px;"/>
-    <button id="searchButtons" onclick="bingSearch()">必应搜索</button>
-    
-    <p><img src="https://tenapi.cn/v2/ipinfo"width="250" height="105"></p>
-    <font size="5"> 
+    <form onsubmit="bingSearch(); return false;">
+        <input id="searchBar" type=text title="输入搜索词"/>
+        <button id="searchButtons" type="button" title="搜索网页" onclick="bingSearch()">必应搜索</button>
+    </form>
+
+    <p><img src="https://tenapi.cn/v2/ipinfo" width="250" height="105" alt="IP签名档"></p>
+    <span class="sites">
+        <p><a href="radio.html">听广播</a></p>
         
         <p>iOS6资源↓</p>
-        <li><a href="https://www.iosipa.cn/index.php">iOSIPA</a></li>
-        <li><a href="https://3x.lengshanyun.top/">3X助手</a></li>
-        <li><a href="https://wwx.lanzoux.com/b01bojzyf">iOS6老应用游戏合集(蓝奏云)</a></li>
-        <li><a href="http://2012rs.mysxl.cn/">2010资源站(包括iOS,塞班,Java,Windowsphone)</a></li>
+        <ul>
+            <li><a href="https://www.iosipa.cn/index.php">iOSIPA</a></li>
+            <li><a href="https://3x.lengshanyun.top/">3X助手</a></li>
+            <li><a href="https://wwx.lanzoux.com/b01bojzyf">iOS6老应用游戏合集(蓝奏云)</a></li>
+            <li><a href="http://2012rs.mysxl.cn/">2010资源站(包括iOS,塞班,Java,Windowsphone)</a></li>
+        </ul>
             
         <p>Java手机/诺基亚资源↓</p>
-        <li><a href="https://jvgm.cn/">Java手机乐园</a></li>
-        <li><a href="https://ejjava.github.io/">E简网</a></li>
-        <li><a href="https://java.owoemu.com/">Javaovo</a></li>
-        <li><a href="http://java.52emu.cn/">52emu网</a></li>
-        <li><a href="https://www.jvgme.com/">jvgme网</a></li>
-        <li><a href="http://j2mecloud.tpddns.cn:3092/index.jsp">j2me云资源分享</a></li>
-        <li><a href=https://iniche.cn/"">小众网</a></li>
+        <ul>
+            <li><a href="https://jvgm.cn/">Java手机乐园</a></li>
+            <li><a href="https://ejjava.github.io/">E简网</a></li>
+            <li><a href="https://java.owoemu.com/">Javaovo</a></li>
+            <li><a href="http://java.52emu.cn/">52emu网</a></li>
+            <li><a href="https://www.jvgme.com/">jvgme网</a></li>
+            <li><a href="http://j2mecloud.tpddns.cn:3092/index.jsp">j2me云资源分享</a></li>
+            <li><a href="https://iniche.cn/">小众网</a></li>
+        </ul>
         
         <p>wap游戏↓</p>
-        <li><a href="http://yz.wap.city/">勇者传说</a> </li>
-        <li><a href="http://nc.wap.city/">开心农场</a> </li>
-        <li><a href="http://hd.wap.city/">海盗岛</a> </li>
+        <ul>
+            <li><a href="http://yz.wap.city/">勇者传说</a> </li>
+            <li><a href="http://nc.wap.city/">开心农场</a> </li>
+            <li><a href="http://hd.wap.city/">海盗岛</a> </li>
+        </ul>
 
         <p>老安卓资源↓</p>
-        <li><a href="https://oldpods.mysxl.cn/">老豆荚</a></li>
+        <ul>
+            <li><a href="https://oldpods.mysxl.cn/">老豆荚</a></li>
+        </ul>
         
         <p>友情链接</p>
-        <li><a href="https://img.fy6b.com/">枫音图床</a> </li>
-        <li><a href="http://xiaopi0213.ys168.com">小皮的网盘小站</a></li>
+        <ul>
+            <li><a href="https://img.fy6b.com/">枫音图床</a> </li>
+            <li><a href="http://xiaopi0213.ys168.com">小皮的网盘小站</a></li>
+        </ul>
 
-    </font>
+    </span>
+
+    <style type="text/css">
+        body {
+            background-color: #ECF0F1;
+        }
+        #searchBar {
+            width: 100px;
+        }
+        span.sites {
+            font-size: 20px;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000;
+                color: #ffffff;
+                opacity: 0.87; /* 设置字体透明度为87%以增加可读性 */
+            }
+            a {
+                color: Mediumslateblue;
+            }
+        }
+    </style>
     
     <!--网站统计-->
     <a href="http://wapmz.com/in/10"><img src="http://wapmz.com/cn/small/10" alt="wapmz.com"></a>
@@ -65,20 +97,20 @@
     <script> 
         show();
         function show() { 
-            var date = new Date(); 
-            var now = ""; 
+            let date = new Date(); 
+            let now = ""; 
             now = date.getFullYear()+"年";           
             now = now + (date.getMonth()+1)+"月"; 
             now = now + date.getDate()+"日"; 
-            now = now + date.getHours()+"时"; 
-            now = now + date.getMinutes()+"分"; 
-            now = now + date.getSeconds()+"秒"; 
+            now = now + date.getHours()+"时";
+            now = now + date.getMinutes()+"分";
+            now = now + date.getSeconds()+"秒";
             document.getElementById("nowDiv").innerHTML = now;
-            setTimeout("show()",1000);              
+            setTimeout("show()",1000);
         } 
 
-        function bingSearch() {     
-            var v=document.getElementById("searchBar");
+        function bingSearch() {
+            let v=document.getElementById("searchBar");
             location.href="http://bing.com/search?q="+v.value;
         }
     </script>
