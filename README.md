@@ -5,7 +5,7 @@
 
 iOS : iOSIPA 3X助手 老应用游戏合集 2012资源站
 
-Java/诺基亚 : Java手机乐园 E简网 Javaovo 52emu网 jvgme网 j2me云资源分享 小众网 续梦网
+Java/诺基亚 : Java手机乐园 E简网 Javaovo 52emu网 jvgme网 j2me云资源分享 小众网 续梦网 DERTZ Phoneky Gogamz Javaware mobigama sotton seclub
 
 老安卓 : 老豆荚
 
