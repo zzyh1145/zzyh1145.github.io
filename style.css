@@ -1,0 +1,19 @@
+body {
+    background-color: #ECF0F1;
+}
+#searchBar {
+    width: 100px;
+}
+span.sitesUrl {
+    font-size: 20px;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #ffffff;
+        opacity: 0.87; /* 设置字体透明度为87%以增加可读性 */
+    }
+    a {
+        color: Mediumslateblue;
+    }
+}
