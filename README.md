@@ -3,7 +3,7 @@
 
 ## 已收录网站
 
-iOS : iOSIPA 3X助手 老应用游戏合集 2012资源站
+iOS : iOSIPA 3X助手 老应用游戏合集 2012资源站 互联网档案馆IPA
 
 Java/诺基亚 : Java手机乐园 E简网 Javaovo 52emu网 jvgme网 j2me云资源分享 小众网 续梦网 DERTZ Phoneky Gogamz Javaware mobigama sotton seclub
 
@@ -11,10 +11,11 @@ Java/诺基亚 : Java手机乐园 E简网 Javaovo 52emu网 jvgme网 j2me云资�
 
 老设备论坛/贴吧 : CN_DCMS-Social iOS6吧 iPhonehoen4s吧 javagame吧 IT友友网 爱黑武论坛 DOSPY塞班论坛
 
-
 老安卓 : 老豆荚  姜饼小屋
 
 WAP游戏 : 勇者传说 开心农场 海盗岛
+
+WP/WM : 刷机迷 XAP下载
 
 ## 待办
 
