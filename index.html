@@ -21,9 +21,10 @@
     <div id="nowDiv"></div>
     
     <!--搜索栏-->
-    <form onsubmit="bingSearch(); return false;">
+    <form onsubmit="Search(); return false;">
         <input id="searchBar" type=text title="输入搜索词"/>
         <button id="searchButtons" type="button" title="搜索网页" onclick="bingSearch()">必应搜索</button>
+        <button id="searchButtons" type="button" title="搜索网页" onclick="yandexSearch()">Yandex搜索</button>
     </form>
 
     <span class="sitesUrl">
@@ -61,6 +62,10 @@
         function bingSearch() {
             let v=document.getElementById("searchBar");
             location.href="http://bing.com/search?q="+v.value;
+        }
+        function yandexSearch() {
+            let v=document.getElementById("searchBar");
+            location.href="https://yandex.com/search/?text="+v.value;
         }
     </script>
 </body>
